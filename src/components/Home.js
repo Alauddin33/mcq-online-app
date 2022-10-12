@@ -22,13 +22,15 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+            <div className=' grid grid-cols-2 gap-4 w-4/5 mx-auto px-0'>
+                {
+                    topics.map(topic => <Topic
+                        key={topic.id}
+                        topic={topic}
+                    ></Topic>)
+                }
+            </div>
 
-            {
-                topics.map(topic => <Topic
-                    key={topic.id}
-                    topic={topic}
-                ></Topic>)
-            }
 
         </div>
 
