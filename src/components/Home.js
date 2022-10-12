@@ -1,6 +1,11 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import img from '../assets/mcq-pref-format.png';
+import { TopicContext } from './Main';
+import Topic from '../components/Topic'
 const Home = () => {
+    const data = useContext(TopicContext)
+    const topics = data[0].data;
+    // console.log(topics)
     return (
 
         <div>
@@ -17,6 +22,14 @@ const Home = () => {
                     </div>
                 </div>
             </section>
+
+            {
+                topics.map(topic => <Topic
+                    key={topic.id}
+                    topic={topic}
+                ></Topic>)
+            }
+
         </div>
 
 
