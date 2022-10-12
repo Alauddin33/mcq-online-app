@@ -4,6 +4,7 @@ import React from 'react';
 const topic = ({ topic, handleStartPracticeBtn }) => {
     // console.log(topic)
     const { name, logo, total, id } = topic
+
     return (
         <div className='mt-6'>
             <div className="max-w-xs  mx-auto p-3 rounded-md shadow-md dark:bg-gray-900 dark:text-gray-50 border">

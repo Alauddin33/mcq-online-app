@@ -6,6 +6,9 @@ import Blog from "../components/Blog"
 import Quiz from "../components/Quiz";
 import ErrorPage from '../components/ErrorPage'
 
+
+
+
 export const router = createBrowserRouter([
     {
         path: '/',
@@ -26,7 +29,8 @@ export const router = createBrowserRouter([
                 path: '/blog', element: <Blog></Blog>
             },
             {
-                path: '/quiz', element: <Quiz></Quiz>
+                path: '/quiz',
+                element: <Quiz></Quiz>
             }
         ]
     }

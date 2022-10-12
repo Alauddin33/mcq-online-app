@@ -1,14 +1,20 @@
-import React, { useContext } from 'react';
+import React, { useContext, useState } from 'react';
 import img from '../assets/mcq-pref-format.png';
 import { TopicContext } from './Main';
-import Topic from '../components/Topic'
+import Topic from '../components/Topic';
+import Quiz from './Quiz';
+
 const Home = () => {
     const data = useContext(TopicContext)
     const topics = data[0].data;
     // console.log(topics)
 
+
+
     const handleStartPracticeBtn = (topic) => {
-        console.log(topic.id);
+        console.log(topic);
+
+
     }
 
 
