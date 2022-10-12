@@ -6,6 +6,12 @@ const Home = () => {
     const data = useContext(TopicContext)
     const topics = data[0].data;
     // console.log(topics)
+
+    const handleStartPracticeBtn = (topic) => {
+        console.log(topic.id);
+    }
+
+
     return (
 
         <div>
@@ -27,6 +33,7 @@ const Home = () => {
                     topics.map(topic => <Topic
                         key={topic.id}
                         topic={topic}
+                        handleStartPracticeBtn={handleStartPracticeBtn}
                     ></Topic>)
                 }
             </div>
