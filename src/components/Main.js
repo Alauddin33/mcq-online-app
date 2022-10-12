@@ -1,13 +1,15 @@
-import React from 'react';
+import React, { createContext } from 'react';
 import { Outlet } from 'react-router-dom';
 import Header from './Header';
-
+const TopicContext = createContext([])
 
 const Main = () => {
     return (
         <div>
-            <Header></Header>
-            <Outlet></Outlet>
+            <TopicContext.Provider value={[]}>
+                <Header></Header>
+                <Outlet></Outlet>
+            </TopicContext.Provider>
         </div>
     );
 };
