@@ -22,7 +22,7 @@ const Blog = () => {
                         </details>
                         <details className="w-full border rounded-lg">
                             <summary className="px-4 py-6 focus:outline-none focus-visible:ring-violet-400">What is useref?</summary>
-                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. useRef is like a “box” that can hold a mutable value in its .current property.useRef doesn’t notify you when its content changes. Mutating the .current property doesn’t cause a re-render. to run some code when React attaches or detaches a ref to a DOM node, it may want to use a callback ref instead.
+                            <p className="px-4 py-6 pt-0 ml-4 -mt-4 dark:text-gray-400">useRef returns a mutable ref object whose .current property is initialized to the passed argument (initialValue). The returned object will persist for the full lifetime of the component. useRef is like a “box” that can hold a mutable value in its .current property.useRef doesn't notify you when its content changes. Mutating the .current property doesn't cause a re-render. to run some code when React attaches or detaches a ref to a DOM node, it may want to use a callback ref instead.
 
                             </p>
                         </details>

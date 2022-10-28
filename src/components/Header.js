@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -8,17 +7,12 @@ const Header = () => {
 
       <header className="p-4 dark:bg-gray-800 dark:text-gray-100">
         <div className="container flex justify-between h-16 mx-auto">
-          <Link to='/home' rel="noopener noreferrer" aria-label="Back to homepage" className="flex items-center px-6 text-3xl text-violet-800 py2 bg-blue-200 rounded-sm">MCQ ONLINE
-
-
-
+          <Link to='/' rel="noopener noreferrer" aria-label="Back to homepage" className="flex items-center px-6 text-3xl text-violet-800 py2 bg-blue-200 rounded-sm">MCQ ONLINE
           </Link>
           <ul className="items-stretch hidden space-x-3 md:flex">
+
             <li className="flex">
-              <Link to='/home' rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Home</Link>
-            </li>
-            <li className="flex">
-              <Link to='/quiz' rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Quiz</Link>
+              <Link to='/' rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent">Topics</Link>
             </li>
             <li className="flex">
               <Link to='/Statistics' rel="noopener noreferrer" className="flex items-center px-4 -mb-1 border-b-2 dark:border-transparent dark:text-violet-400 dark:border-violet-400">Statistics</Link>
