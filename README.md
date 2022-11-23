@@ -1,3 +1,17 @@
+# My Website Name:  "Mcq Online"
+
+## Live site Link:
+Website link is given here: [https://gleaming-buttercream-bdff51.netlify.app/](https://gleaming-buttercream-bdff51.netlify.app/)
+
+# points which I make
+* react icons
+* daisy ui framework
+* React js
+* tailwind css
+* netlify deploy
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
