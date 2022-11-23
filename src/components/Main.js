@@ -6,10 +6,10 @@ export const TopicContext = createContext([]);
 
 const Main = () => {
     const topics = useLoaderData()
-    console.log(topics);
+    // console.log(topics);
 
     return (
-        <div>
+        <div className='w-5/6 mx-auto'>
             <TopicContext.Provider value={topics}>
                 <Header></Header>
                 <Outlet></Outlet>
